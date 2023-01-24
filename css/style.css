@@ -82,97 +82,25 @@ h1, p{
 
 p {
     line-height: 25px;
+    font-size: 18px;
 }
 
-.maincont, .maincont2{
-    height: 400px;
+h1{
+    font-size: 40px;
 }
-
-.maincont, .maincont2, .maincont3, .ftop {
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-}
-
 
 .maincont{
-    background-color: aqua;
-}
-
-.maincont2,.maincont3 {
-    background-color: burlywood;
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px
 }
 
 .imgmain{
-    width: 400px;
-    height: 200px;
-    background-color: brown;
+    width: 60%; 
 }
 
 .didascmain{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
+    width: 40%;
 }
 
-.imgmain.seconda{
-    order: 2;
-}
-
-.didascmain.seconda{
-    order: 1;
-}
-
-.maincont3{
-    height: 700px;
-
-}
-
-.bottom-main{
-    background-color: lightgreen;
-    height: 600px;
-    width: 500px;
-}
-
-.boxfooter{
-    background-color: firebrick;
-    height: 600px;
-
-}
-
-.ftop{
-    height: 500px;
-}
-
-.col1{
-    height: 400px;
-    width: 200px;
-    background-color: salmon;
-    border: 2px dashed black;
-
-}
-
-.col2{
-    height: 400px;
-    width: 150px;
-    background-color: aquamarine;
-    border: 2px dashed white;
-}
-
-.fbottom{
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-    background-color: yellow;
-    align-items: center;
-}
-
-.pink{
-    background-color: pink;
-}
-
-
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
