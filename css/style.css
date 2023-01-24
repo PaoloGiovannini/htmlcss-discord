@@ -50,6 +50,11 @@ header{
     color: white;
 }
 
+.purple{
+    background-color: #7289DA;
+    color: white;
+}
+
 .htop-bar li{
     display: inline-block;
     padding: 0px 20px;
@@ -106,8 +111,21 @@ h1{
 
 .bg-gray{
     background-color: #F6F6F6;
+    padding: 50px 0px;
 }
 
 .secondimg{
     margin-left: 100px;
+}
+
+.mainbottom{
+    text-align: center;
+    max-width: 1170px;
+    margin: auto
+}
+
+.star{
+    background-image: url(../img/stars.svg);
+    height: 50px;
+    margin: 20px 0px;
 }
