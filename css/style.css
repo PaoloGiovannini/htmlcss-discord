@@ -144,22 +144,29 @@ footer{
 
 .footertop{
     display: flex;
-    height: 400px;
 }
 
 .colbig{
     width: 28%;
-   
+   padding: 20px 0px;
 }
 
 .colsmall{
     width: 18%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer h2{
     color: #6E81C7;
     font-size: 33px;
-    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    color: #6e81c7;
+    
 }
 
 footer span{
