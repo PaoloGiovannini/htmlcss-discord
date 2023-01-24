@@ -2,22 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mwidth{
+    max-width: 1170px;
+    margin: auto;
 }
 
 header{
-    height: 650px;
     color: white;
 }
 
 .div-htop{
-    height: 100px;
     background-color: #255EE9;
 }
 
 .htop-bar{
     padding: 20px 0px;
-    max-width: 1170px;
-    margin: auto;
     display: flex;
     align-items: center;
 }
@@ -37,7 +39,7 @@ header{
 
 .button{
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .white{
@@ -71,13 +73,13 @@ li a{
     background-color: blue; 
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 200px 0px;
+    padding: 150px 0px;
     
 }
 
 .conthbottom{
     text-align: center;
-    width: 40%;
+    max-width: 40%;
     margin: auto;
 }
 
@@ -94,10 +96,8 @@ h1{
     font-size: 40px;
 }
 
-.maincont{
-    max-width: 1170px;
+.maincontainer{
     display: flex;
-    margin: auto;
     padding: 80px 0px
 }
 
@@ -120,8 +120,6 @@ h1{
 
 .mainbottom{
     text-align: center;
-    max-width: 1170px;
-    margin: auto
 }
 
 .star{
@@ -137,18 +135,13 @@ footer{
 }
 
 
-.container-footer{
-    max-width: 1170px;
-    margin: auto;
-}
-
 .footertop{
     display: flex;
 }
 
 .colbig{
     width: 28%;
-   padding: 20px 0px;
+    padding: 20px 0px;
 }
 
 .colsmall{
@@ -180,3 +173,16 @@ footer span{
 i{
     margin: 15px 15px 15px 0px;
 }
+
+.footerbottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: #445074;
+}
+
