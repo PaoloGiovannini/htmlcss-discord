@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 400px;
+}
+
+.div-htop{
+    height: 100px;
+    background-color: #255EE9;
+}
+
+.htop-bar{
+    padding: 30px 0px;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 8px 10px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+
+
+.htop-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.hbottom{
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items : center;  
+}
+
+.conthbottom{
+    height: 70%;
+    background-color: green;
+    width: 50%;
+}
+
+.maincont, .maincont2{
+    height: 400px;
+}
+
+.maincont, .maincont2, .maincont3, .ftop, .hbottom{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+.maincont{
+    background-color: aqua;
+}
+
+.maincont2,.maincont3 {
+    background-color: burlywood;
+}
+
+.imgmain{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+}
+
+.didascmain{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.imgmain.seconda{
+    order: 2;
+}
+
+.didascmain.seconda{
+    order: 1;
+}
+
+.maincont3{
+    height: 700px;
+
+}
+
+.bottom-main{
+    background-color: lightgreen;
+    height: 600px;
+    width: 500px;
+}
+
+.boxfooter{
+    background-color: firebrick;
+    height: 600px;
+
+}
+
+.ftop{
+    height: 500px;
+}
+
+.col1{
+    height: 400px;
+    width: 200px;
+    background-color: salmon;
+    border: 2px dashed black;
+
+}
+
+.col2{
+    height: 400px;
+    width: 150px;
+    background-color: aquamarine;
+    border: 2px dashed white;
+}
+
+.fbottom{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: yellow;
+    align-items: center;
+}
+
+.pink{
+    background-color: pink;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
