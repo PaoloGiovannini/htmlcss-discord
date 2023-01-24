@@ -16,7 +16,7 @@ header{
 
 .htop-bar{
     padding: 20px 0px;
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -128,4 +128,48 @@ h1{
     background-image: url(../img/stars.svg);
     height: 50px;
     margin: 20px 0px;
+}
+
+footer{
+    background-color: #23272A;
+    padding: 50px;
+    color: white;
+}
+
+
+.container-footer{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footertop{
+    display: flex;
+    height: 400px;
+}
+
+.colbig{
+    width: 28%;
+   
+}
+
+.colsmall{
+    width: 18%;
+}
+
+footer h2{
+    color: #6E81C7;
+    font-size: 33px;
+    padding: 20px 0px;
+}
+
+footer span{
+    padding: 8px 0px;
+}
+
+#flag{
+    height: 13px;
+}
+
+i{
+    margin: 15px 15px 15px 0px;
 }
